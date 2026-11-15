@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VaultFlow</string>
+    <string name="notification_listener_label">VaultFlow Bank Push Parser</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_banks">Banks</string>
+    <string name="nav_theme">Studio</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Workspaces -->
+    <string name="all_workspaces">All Workspaces</string>
+    <string name="new_workspace">New Workspace</string>
+    <string name="edit_workspace">Edit Workspace</string>
+    <string name="workspace_name">Workspace Name</string>
+    <string name="workspace_emoji">Icon Emoji</string>
+    <string name="primary_currency">Primary Currency</string>
+    <string name="create_workspace">Create Workspace</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="delete_workspace">Delete Workspace</string>
+
+    <!-- Home Blocks -->
+    <string name="block_balance">Total Balance</string>
+    <string name="block_accounts">Bank Cards &amp; Accounts</string>
+    <string name="block_quick_actions">Quick Actions</string>
+    <string name="block_chart">Cashflow Overview</string>
+    <string name="block_goals">Savings Envelopes</string>
+    <string name="block_subscriptions">Upcoming Subscriptions</string>
+    <string name="block_transactions">Recent Transactions</string>
+
+    <!-- Home & Dashboard -->
+    <string name="net_worth">Total Capital</string>
+    <string name="workspace_balance">Workspace Balance</string>
+    <string name="income_this_month">Income</string>
+    <string name="expense_this_month">Expenses</string>
+    <string name="tap_to_hide">Tap or shake to toggle privacy</string>
+    <string name="privacy_hidden_hint">Privacy mode active • Shake or tap to reveal</string>
+    <string name="quick_expense">Expense</string>
+    <string name="quick_income">Income</string>
+    <string name="quick_transfer">Transfer</string>
+    <string name="quick_sync">Mono Sync</string>
+    <string name="empty_dashboard_title">Welcome to VaultFlow</string>
+    <string name="empty_dashboard_subtitle">Create a workspace, connect your Monobank token, or load Demo Mode in Settings to explore.</string>
+    <string name="load_demo_now">Load Demo Data</string>
+    <string name="no_accounts_yet">No accounts linked yet</string>
+    <string name="add_account">Add Account</string>
+    <string name="no_transactions_yet">No transactions recorded yet</string>
+    <string name="no_goals_yet">No savings envelopes yet</string>
+    <string name="no_subscriptions_yet">No active subscriptions</string>
+    <string name="top_up">Top Up</string>
+    <string name="due_in_days">Due in %1$d d</string>
+    <string name="due_today">Due today</string>
+    <string name="overdue_days">Overdue by %1$d d</string>
+    <string name="mark_paid">Mark Paid</string>
+
+    <!-- Transactions -->
+    <string name="add_transaction">New Transaction</string>
+    <string name="transaction_type_expense">Expense</string>
+    <string name="transaction_type_income">Income</string>
+    <string name="transaction_type_transfer">Transfer</string>
+    <string name="amount_label">Amount</string>
+    <string name="title_label">Title / Merchant</string>
+    <string name="category_label">Category</string>
+    <string name="account_label">Account</string>
+    <string name="target_account_label">Destination Account</string>
+    <string name="workspace_label">Workspace</string>
+    <string name="note_label">Note (optional)</string>
+    <string name="save_transaction">Save Transaction</string>
+    <string name="delete_transaction">Delete</string>
+    <string name="invalid_amount">Enter a valid amount greater than 0</string>
+    <string name="select_account_error">Please select an account first</string>
+    <string name="source_manual">Manual</string>
+    <string name="source_monobank">Monobank</string>
+    <string name="source_notification">Push Parser</string>
+
+    <!-- Categories -->
+    <string name="cat_groceries">Groceries</string>
+    <string name="cat_dining">Dining &amp; Coffee</string>
+    <string name="cat_transport">Transport</string>
+    <string name="cat_utilities">Utilities &amp; Home</string>
+    <string name="cat_tech">Tech &amp; Software</string>
+    <string name="cat_health">Health</string>
+    <string name="cat_entertainment">Entertainment</string>
+    <string name="cat_salary">Salary &amp; Freelance</string>
+    <string name="cat_cashback">Cashback &amp; Bonus</string>
+    <string name="cat_transfer">Transfer</string>
+    <string name="cat_other">Other</string>
+
+    <!-- Theme Studio -->
+    <string name="theme_studio_title">Design Studio</string>
+    <string name="theme_editing_workspace">Styling: %1$s</string>
+    <string name="theme_select_workspace_hint">Select an individual workspace to customize its unique look.</string>
+    <string name="theme_live_preview">Live Preview</string>
+    <string name="theme_presets">Theme Presets</string>
+    <string name="preset_minimal_dark">Minimal Dark</string>
+    <string name="preset_cyberpunk_neon">Cyberpunk Neon</string>
+    <string name="preset_paper_light">Paper Light</string>
+    <string name="preset_emerald_glass">Emerald Glass</string>
+    <string name="theme_palette">Color Palette</string>
+    <string name="color_background">Background</string>
+    <string name="color_card">Card Surface</string>
+    <string name="color_text_primary">Primary Text</string>
+    <string name="color_text_secondary">Secondary Text</string>
+    <string name="color_accent">Accent</string>
+    <string name="color_income">Income</string>
+    <string name="color_expense">Expense</string>
+    <string name="pick_color">Pick Color</string>
+    <string name="hex_code">Hex Code</string>
+    <string name="theme_geometry">Geometry &amp; Typography</string>
+    <string name="corner_radius">Corner Radius: %1$d dp</string>
+    <string name="border_width">Card Border: %1$.1f dp</string>
+    <string name="card_alpha">Card Glass Alpha: %1$d%%</string>
+    <string name="font_style">Font Family</string>
+    <string name="font_default">Plus Jakarta</string>
+    <string name="font_monospace">JetBrains Mono</string>
+    <string name="font_serif">Playfair Serif</string>
+    <string name="font_rounded">Nunito Rounded</string>
+    <string name="layout_builder">Home Layout Builder</string>
+    <string name="export_theme_json">Export JSON</string>
+    <string name="import_theme_json">Import JSON</string>
+    <string name="theme_copied_clipboard">Theme JSON copied to clipboard</string>
+    <string name="theme_imported_success">Theme imported successfully</string>
+    <string name="theme_import_error">Invalid Theme JSON format</string>
+    <string name="paste_theme_json">Paste Theme JSON</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Banks & Parser -->
+    <string name="banks_title">Banks &amp; Automation</string>
+    <string name="monobank_section">Monobank API</string>
+    <string name="monobank_token_label">Personal X-Token</string>
+    <string name="monobank_token_hint">Get your token at api.monobank.ua</string>
+    <string name="connect_monobank">Fetch Cards</string>
+    <string name="sync_statements">Sync Statements</string>
+    <string name="sync_cooldown">Wait %1$ds (API rate limit: 1 req / 60s)</string>
+    <string name="sync_success">Synced %1$d accounts &amp; %2$d new transactions</string>
+    <string name="currency_rates_updated">Rates refreshed</string>
+    <string name="refresh_rates">Refresh Rates</string>
+    <string name="assign_to_workspace">Assign to Workspace</string>
+    <string name="notification_parser_section">Smart Push Notification Parser</string>
+    <string name="listener_permission_granted">Notification Listener: Active</string>
+    <string name="listener_permission_missing">Notification Listener: Disabled</string>
+    <string name="grant_listener_access">Open Access Settings</string>
+    <string name="add_parsing_rule">New Regex Rule</string>
+    <string name="load_ukrainian_presets">Load Bank Presets (A-Bank, Alliance, Privat, PUMB)</string>
+    <string name="simulate_push_test">Test Push Parser</string>
+    <string name="rule_name">Rule Name</string>
+    <string name="package_name">App Package Name</string>
+    <string name="regex_pattern">Regex Pattern</string>
+    <string name="amount_group">Amount Group #</string>
+    <string name="currency_group">Currency Group # (0 = auto)</string>
+    <string name="merchant_group">Merchant Group # (0 = none)</string>
+    <string name="test_sample_text">Sample Notification Text</string>
+    <string name="regex_test_result">Live Match Preview</string>
+    <string name="regex_no_match">No match for current text</string>
+    <string name="target_account">Target Account</string>
+
+    <!-- Analytics, Goals & Subscriptions -->
+    <string name="analytics_title">Analytics &amp; Planning</string>
+    <string name="tab_overview">Analytics</string>
+    <string name="tab_goals">Envelopes</string>
+    <string name="tab_subscriptions">Subscriptions</string>
+    <string name="spending_by_category">Spending by Category</string>
+    <string name="currency_rates_title">Live Exchange Rates (Monobank)</string>
+    <string name="add_goal">New Envelope</string>
+    <string name="goal_name">Goal Name</string>
+    <string name="goal_target">Target Amount</string>
+    <string name="top_up_amount">Top Up Amount</string>
+    <string name="deduct_from_account">Deduct from Account</string>
+    <string name="add_subscription">New Subscription</string>
+    <string name="subscription_name">Service Name</string>
+    <string name="billing_cycle">Billing Cycle</string>
+    <string name="cycle_weekly">Weekly</string>
+    <string name="cycle_monthly">Monthly</string>
+    <string name="cycle_yearly">Yearly</string>
+    <string name="monthly_burn_rate">Monthly Recurring Total</string>
+
+    <!-- Settings & Security -->
+    <string name="settings_title">Settings &amp; Security</string>
+    <string name="security_section">Privacy &amp; Security</string>
+    <string name="biometric_lock">Biometric App Lock</string>
+    <string name="biometric_lock_desc">Require fingerprint or device PIN on launch</string>
+    <string name="biometric_unavailable">Biometric authentication is not set up on this device</string>
+    <string name="shake_to_hide">Shake to Hide Balances</string>
+    <string name="shake_to_hide_desc">Use accelerometer gesture to mask sensitive numbers</string>
+    <string name="language_section">Language &amp; Currency</string>
+    <string name="app_language">App Language</string>
+    <string name="lang_system">System Default</string>
+    <string name="lang_en">English</string>
+    <string name="lang_uk">Українська</string>
+    <string name="global_currency">All-Workspaces Base Currency</string>
+    <string name="demo_section">Demo &amp; Data</string>
+    <string name="fill_demo_data">Load Demo Data (3 Workspaces)</string>
+    <string name="fill_demo_desc">Creates Mono Household, A-Bank Work, and Alliance Reserve with sample history</string>
+    <string name="demo_loaded_msg">Demo workspaces &amp; transactions created</string>
+    <string name="clear_all_data">Reset All Local Data</string>
+    <string name="unlock_vaultflow">Unlock VaultFlow</string>
+    <string name="unlock_subtitle">Verify your identity to access your financial workspaces</string>
+    <string name="unlock_button">Authenticate</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="create">Create</string>
+    <string name="account_name">Account Name</string>
+    <string name="bank_provider">Bank / Provider</string>
+    <string name="initial_balance">Initial Balance</string>
+    <string name="last_four_digits">Last 4 Digits (optional)</string>
+
+    <!-- Simplified Controls & Studio -->
+    <string name="studio_tab_themes">Themes</string>
+    <string name="studio_tab_style">Colors &amp; Style</string>
+    <string name="studio_tab_layout">Blocks</string>
+    <string name="quick_accent_tint">Quick Accent Color</string>
+    <string name="quick_shape_style">Card Style Presets</string>
+    <string name="style_glass">Soft Glass</string>
+    <string name="style_crisp">Crisp Card</string>
+    <string name="style_neon">Neon Outline</string>
+    <string name="style_flat">Paper Flat</string>
+    <string name="fine_tune_sliders">Fine-tune Geometry Sliders</string>
+    <string name="reset_layout">Reset Order</string>
+    <string name="advanced_regex">Advanced Regex Settings</string>
+    <string name="sync_now">Connect &amp; Sync</string>
+    <string name="main_account_default">Main Account</string>
+    <string name="customize_style">Style</string>
+    <string name="details_optional">Workspace &amp; Account</string>
+
+    <!-- Fintech Redesign -->
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="this_month">This month</string>
+    <string name="quick_goals">Goals</string>
+    <string name="studio_tab_style_preset">Style</string>
+    <string name="studio_tab_shape">Shape</string>
+    <string name="studio_tab_blocks">Blocks</string>
+    <string name="corners_label">Corners</string>
+    <string name="corners_sharp">Sharp</string>
+    <string name="corners_soft">Soft</string>
+    <string name="corners_round">Round</string>
+    <string name="card_style_label">Card Style</string>
+    <string name="card_style_gradient">Gradient</string>
+    <string name="card_style_glass">Glass</string>
+    <string name="card_style_minimal">Minimal</string>
+    <string name="font_modern">Modern</string>
+    <string name="font_tech">Tech</string>
+    <string name="font_classic">Classic</string>
+    <string name="share_theme_json">Share Theme (JSON)</string>
+    <string name="paste_theme_json_menu">Paste Theme (JSON)</string>
+    <string name="open_mono_portal">Open api.monobank.ua</string>
+    <string name="mono_step_1">1. Open api.monobank.ua and scan the QR code</string>
+    <string name="mono_step_2">2. Copy your personal X-Token and paste it below</string>
+    <string name="auto_push_banks">Instant Push Banks</string>
+    <string name="auto_push_desc">Pick a bank and target workspace — push parsing works automatically.</string>
+    <string name="developer_mode">For Developers</string>
+    <string name="target_workspace_label">Save to workspace</string>
+    <string name="save_tx_cta">Save</string>
+    <string name="optional_note_hint">Merchant or note (optional)</string>
+</resources>

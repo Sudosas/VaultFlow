@@ -1,0 +1,6 @@
+{
+  "name": "VaultFlow",
+  "description": "Open-source personal finance manager with isolated workspaces, live theme customization engine, Monobank API sync, and smart bank notification parser.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VaultFlow</string>
+    <string name="notification_listener_label">VaultFlow Парсер банківських пушів</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Головна</string>
+    <string name="nav_analytics">Аналітика</string>
+    <string name="nav_banks">Банки</string>
+    <string name="nav_theme">Студія</string>
+    <string name="nav_settings">Налаштування</string>
+
+    <!-- Workspaces -->
+    <string name="all_workspaces">Всі простори</string>
+    <string name="new_workspace">Новий простір</string>
+    <string name="edit_workspace">Редагувати простір</string>
+    <string name="workspace_name">Назва простору</string>
+    <string name="workspace_emoji">Емодзі-іконка</string>
+    <string name="primary_currency">Основна валюта</string>
+    <string name="create_workspace">Створити простір</string>
+    <string name="save_changes">Зберегти зміни</string>
+    <string name="delete_workspace">Видалити простір</string>
+
+    <!-- Home Blocks -->
+    <string name="block_balance">Баланс</string>
+    <string name="block_accounts">Картки рахунків</string>
+    <string name="block_quick_actions">Швидкі дії</string>
+    <string name="block_chart">Графік витрат/доходів</string>
+    <string name="block_goals">Цілі / Конверти</string>
+    <string name="block_subscriptions">Найближчі підписки</string>
+    <string name="block_transactions">Останні транзакції</string>
+
+    <!-- Home & Dashboard -->
+    <string name="net_worth">Загальний капітал</string>
+    <string name="workspace_balance">Баланс простору</string>
+    <string name="income_this_month">Доходи</string>
+    <string name="expense_this_month">Витрати</string>
+    <string name="tap_to_hide">Натисніть або струсіть для приховування</string>
+    <string name="privacy_hidden_hint">Режим приватності • Струсіть або натисніть</string>
+    <string name="quick_expense">Витрата</string>
+    <string name="quick_income">Дохід</string>
+    <string name="quick_transfer">Переказ</string>
+    <string name="quick_sync">Синхр. Mono</string>
+    <string name="empty_dashboard_title">Вітаємо у VaultFlow</string>
+    <string name="empty_dashboard_subtitle">Створіть фінансовий простір, підключіть Monobank або завантажте Demo Mode у Налаштуваннях.</string>
+    <string name="load_demo_now">Завантажити демо-дані</string>
+    <string name="no_accounts_yet">Ще немає доданих рахунків</string>
+    <string name="add_account">Додати рахунок</string>
+    <string name="no_transactions_yet">Транзакцій ще немає</string>
+    <string name="no_goals_yet">Цілей накопичення ще немає</string>
+    <string name="no_subscriptions_yet">Активних підписок немає</string>
+    <string name="top_up">Поповнити</string>
+    <string name="due_in_days">Через %1$d дн.</string>
+    <string name="due_today">Сьогодні</string>
+    <string name="overdue_days">Прострочено на %1$d дн.</string>
+    <string name="mark_paid">Сплачено</string>
+
+    <!-- Transactions -->
+    <string name="add_transaction">Нова транзакція</string>
+    <string name="transaction_type_expense">Витрата</string>
+    <string name="transaction_type_income">Дохід</string>
+    <string name="transaction_type_transfer">Переказ</string>
+    <string name="amount_label">Сума</string>
+    <string name="title_label">Назва / Отримувач</string>
+    <string name="category_label">Категорія</string>
+    <string name="account_label">Рахунок</string>
+    <string name="target_account_label">Рахунок призначення</string>
+    <string name="workspace_label">Простір</string>
+    <string name="note_label">Нотатка (необов\'язково)</string>
+    <string name="save_transaction">Зберегти транзакцію</string>
+    <string name="delete_transaction">Видалити</string>
+    <string name="invalid_amount">Введіть коректну суму більшу за 0</string>
+    <string name="select_account_error">Спочатку оберіть рахунок</string>
+    <string name="source_manual">Вручну</string>
+    <string name="source_monobank">Monobank</string>
+    <string name="source_notification">Пуш-парсер</string>
+
+    <!-- Categories -->
+    <string name="cat_groceries">Продукти</string>
+    <string name="cat_dining">Кафе та кава</string>
+    <string name="cat_transport">Транспорт</string>
+    <string name="cat_utilities">Комунальні та дім</string>
+    <string name="cat_tech">Техніка та софт</string>
+    <string name="cat_health">Здоров\'я</string>
+    <string name="cat_entertainment">Розваги</string>
+    <string name="cat_salary">Зарплата та ФОП</string>
+    <string name="cat_cashback">Кешбек та бонуси</string>
+    <string name="cat_transfer">Переказ</string>
+    <string name="cat_other">Інше</string>
+
+    <!-- Theme Studio -->
+    <string name="theme_studio_title">Студія дизайну</string>
+    <string name="theme_editing_workspace">Стилізація: %1$s</string>
+    <string name="theme_select_workspace_hint">Оберіть конкретний простір для налаштування його індивідуального дизайну.</string>
+    <string name="theme_live_preview">Живе прев\'ю</string>
+    <string name="theme_presets">Готові пресети</string>
+    <string name="preset_minimal_dark">Minimal Dark</string>
+    <string name="preset_cyberpunk_neon">Cyberpunk Neon</string>
+    <string name="preset_paper_light">Paper Light</string>
+    <string name="preset_emerald_glass">Emerald Glass</string>
+    <string name="theme_palette">Палітра кольорів</string>
+    <string name="color_background">Фон</string>
+    <string name="color_card">Картка</string>
+    <string name="color_text_primary">Основний текст</string>
+    <string name="color_text_secondary">Другорядний текст</string>
+    <string name="color_accent">Акцент</string>
+    <string name="color_income">Доходи</string>
+    <string name="color_expense">Витрати</string>
+    <string name="pick_color">Вибір кольору</string>
+    <string name="hex_code">HEX-код</string>
+    <string name="theme_geometry">Геометрія та шрифти</string>
+    <string name="corner_radius">Радіус кутів: %1$d dp</string>
+    <string name="border_width">Товщина обводки: %1$.1f dp</string>
+    <string name="card_alpha">Прозорість карток: %1$d%%</string>
+    <string name="font_style">Стиль шрифту</string>
+    <string name="font_default">Plus Jakarta</string>
+    <string name="font_monospace">JetBrains Mono</string>
+    <string name="font_serif">Playfair Serif</string>
+    <string name="font_rounded">Nunito Rounded</string>
+    <string name="layout_builder">Конструктор головного екрана</string>
+    <string name="export_theme_json">Експорт JSON</string>
+    <string name="import_theme_json">Імпорт JSON</string>
+    <string name="theme_copied_clipboard">JSON теми скопійовано в буфер обміну</string>
+    <string name="theme_imported_success">Тему успішно імпортовано</string>
+    <string name="theme_import_error">Некоректний формат JSON теми</string>
+    <string name="paste_theme_json">Вставте JSON теми</string>
+    <string name="apply">Застосувати</string>
+    <string name="cancel">Скасувати</string>
+
+    <!-- Banks & Parser -->
+    <string name="banks_title">Банки та автоматизація</string>
+    <string name="monobank_section">Monobank API</string>
+    <string name="monobank_token_label">Персональний X-Token</string>
+    <string name="monobank_token_hint">Отримайте токен на api.monobank.ua</string>
+    <string name="connect_monobank">Завантажити картки</string>
+    <string name="sync_statements">Синхронізувати виписку</string>
+    <string name="sync_cooldown">Зачекайте %1$d с (ліміт API: 1 запит / 60 с)</string>
+    <string name="sync_success">Оновлено %1$d рахунків та %2$d нових транзакцій</string>
+    <string name="currency_rates_updated">Курси валют оновлено</string>
+    <string name="refresh_rates">Оновити курси</string>
+    <string name="assign_to_workspace">Прив\'язати до простору</string>
+    <string name="notification_parser_section">Парсер пуш-сповіщень</string>
+    <string name="listener_permission_granted">Доступ до сповіщень: Активний</string>
+    <string name="listener_permission_missing">Доступ до сповіщень: Вимкнено</string>
+    <string name="grant_listener_access">Відкрити налаштування доступу</string>
+    <string name="add_parsing_rule">Нове Regex-правило</string>
+    <string name="load_ukrainian_presets">Пресети банків (А-Банк, Альянс, Приват, ПУМБ)</string>
+    <string name="simulate_push_test">Тест парсера</string>
+    <string name="rule_name">Назва правила</string>
+    <string name="package_name">Пакет додатку (Package)</string>
+    <string name="regex_pattern">Regex-шаблон</string>
+    <string name="amount_group">Група суми №</string>
+    <string name="currency_group">Група валюти № (0 = авто)</string>
+    <string name="merchant_group">Група опису № (0 = немає)</string>
+    <string name="test_sample_text">Приклад тексту пушу</string>
+    <string name="regex_test_result">Результат розпізнавання</string>
+    <string name="regex_no_match">Збігів не знайдено</string>
+    <string name="target_account">Цільовий рахунок</string>
+
+    <!-- Analytics, Goals & Subscriptions -->
+    <string name="analytics_title">Аналітика та планування</string>
+    <string name="tab_overview">Аналітика</string>
+    <string name="tab_goals">Конверти</string>
+    <string name="tab_subscriptions">Підписки</string>
+    <string name="spending_by_category">Витрати за категоріями</string>
+    <string name="currency_rates_title">Актуальні курси валют (Monobank)</string>
+    <string name="add_goal">Новий конверт</string>
+    <string name="goal_name">Назва цілі</string>
+    <string name="goal_target">Цільова сума</string>
+    <string name="top_up_amount">Сума поповнення</string>
+    <string name="deduct_from_account">Списати з рахунку</string>
+    <string name="add_subscription">Нова підписка</string>
+    <string name="subscription_name">Назва сервісу</string>
+    <string name="billing_cycle">Періодичність</string>
+    <string name="cycle_weekly">Щотижня</string>
+    <string name="cycle_monthly">Щомісяця</string>
+    <string name="cycle_yearly">Щороку</string>
+    <string name="monthly_burn_rate">Щомісячні витрати на підписки</string>
+
+    <!-- Settings & Security -->
+    <string name="settings_title">Налаштування та захист</string>
+    <string name="security_section">Приватність і безпека</string>
+    <string name="biometric_lock">Вхід за біометрією</string>
+    <string name="biometric_lock_desc">Вимагати відбиток пальця або PIN при відкритті</string>
+    <string name="biometric_unavailable">Біометрія не налаштована на цьому пристрої</string>
+    <string name="shake_to_hide">Струсити для приховування сум</string>
+    <string name="shake_to_hide_desc">Використовувати акселерометр для маскування балансу</string>
+    <string name="language_section">Мова та валюта</string>
+    <string name="app_language">Мова додатку</string>
+    <string name="lang_system">Системна</string>
+    <string name="lang_en">English</string>
+    <string name="lang_uk">Українська</string>
+    <string name="global_currency">Базова валюта для «Всі простори»</string>
+    <string name="demo_section">Демо-режим та дані</string>
+    <string name="fill_demo_data">Заповнити тестовими даними</string>
+    <string name="fill_demo_desc">Створює 3 простори: Моно Побут, А-Банк Робота, Альянс Резерв</string>
+    <string name="demo_loaded_msg">Демо-простори та транзакції створено</string>
+    <string name="clear_all_data">Очистити всі локальні дані</string>
+    <string name="unlock_vaultflow">Розблокувати VaultFlow</string>
+    <string name="unlock_subtitle">Підтвердіть особу для доступу до ваших фінансів</string>
+    <string name="unlock_button">Увійти</string>
+    <string name="delete">Видалити</string>
+    <string name="save">Зберегти</string>
+    <string name="close">Закрити</string>
+    <string name="create">Створити</string>
+    <string name="account_name">Назва рахунку</string>
+    <string name="bank_provider">Банк / Провайдер</string>
+    <string name="initial_balance">Початковий баланс</string>
+    <string name="last_four_digits">Останні 4 цифри (необов\'язково)</string>
+
+    <!-- Simplified Controls & Studio -->
+    <string name="studio_tab_themes">Теми</string>
+    <string name="studio_tab_style">Стиль і кольори</string>
+    <string name="studio_tab_layout">Блоки</string>
+    <string name="quick_accent_tint">Швидкий вибір акценту</string>
+    <string name="quick_shape_style">Стиль карток в 1 дотик</string>
+    <string name="style_glass">М\'яке скло</string>
+    <string name="style_crisp">Чіткий</string>
+    <string name="style_neon">Неон-контур</string>
+    <string name="style_flat">Плоский</string>
+    <string name="fine_tune_sliders">Точне налаштування повзунками</string>
+    <string name="reset_layout">Скинути порядок</string>
+    <string name="advanced_regex">Розширені параметри Regex</string>
+    <string name="sync_now">Підключити та оновити</string>
+    <string name="main_account_default">Основна картка</string>
+    <string name="customize_style">Стиль</string>
+    <string name="details_optional">Простір та рахунок</string>
+
+    <!-- Fintech Redesign -->
+    <string name="today">Сьогодні</string>
+    <string name="yesterday">Вчора</string>
+    <string name="this_month">За місяць</string>
+    <string name="quick_goals">Цілі</string>
+    <string name="studio_tab_style_preset">Стиль</string>
+    <string name="studio_tab_shape">Форма</string>
+    <string name="studio_tab_blocks">Блоки</string>
+    <string name="corners_label">Кути</string>
+    <string name="corners_sharp">Гострі</string>
+    <string name="corners_soft">М\'які</string>
+    <string name="corners_round">Круглі</string>
+    <string name="card_style_label">Стиль карток</string>
+    <string name="card_style_gradient">Градієнт</string>
+    <string name="card_style_glass">Скло</string>
+    <string name="card_style_minimal">Мінімал</string>
+    <string name="font_modern">Сучасний</string>
+    <string name="font_tech">Техно</string>
+    <string name="font_classic">Класичний</string>
+    <string name="share_theme_json">Поділитися темою (JSON)</string>
+    <string name="paste_theme_json_menu">Вставити тему (JSON)</string>
+    <string name="open_mono_portal">Відкрити api.monobank.ua</string>
+    <string name="mono_step_1">1. Відкрийте api.monobank.ua та відскануйте QR-код</string>
+    <string name="mono_step_2">2. Скопіюйте персональний X-Token і вставте нижче</string>
+    <string name="auto_push_banks">Банки через пуш-сповіщення</string>
+    <string name="auto_push_desc">Оберіть банк і простір — транзакції записуватимуться автоматично.</string>
+    <string name="developer_mode">Для розробників</string>
+    <string name="target_workspace_label">Куди зараховувати</string>
+    <string name="save_tx_cta">Зберегти</string>
+    <string name="optional_note_hint">Опис або заклад (необов\'язково)</string>
+</resources>
